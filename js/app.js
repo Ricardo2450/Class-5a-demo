@@ -10,8 +10,8 @@ Test this function by hand in the console to get it working, and when you think 
 // Write your code here
 function sum(a, b) { //eslint-disable-line
   let totalSum = a + b;
-  let message = `The sum of ${a} and ${b} is ${totalSum}.`
-  return [totalSum, message]
+  let message = `The sum of ${a} and ${b} is ${totalSum}.`;
+  return [totalSum, message];
 }
 
 // Here is the test for sum(); uncomment it to run it
@@ -30,8 +30,8 @@ Test this function by hand in the console to get it working, and when you think 
 // Write your code here
 function multiply(a, b) { //eslint-disable-line
   let totalSum = a * b;
-  let message = `The product of ${a} and ${b} is ${totalSum}.`
-  return [totalSum, message]
+  let message = `The product of ${a} and ${b} is ${totalSum}.`;
+  return [totalSum, message];
 }
 
 // Here is the test for multiply(); uncomment it to run it
@@ -56,7 +56,7 @@ function sumAndMultiply(a, b, c) { //eslint-disable-line
   let totalSum = sum(c, firstSum)[0];
   let firstProduct = multiply(a, b)[0];
   let totalProduct = multiply(c, firstProduct)[0];
-  
+
   let messageSum = `${a} and ${b} and ${c} sum to ${totalSum}.`;
   let messageMulti = `The product of ${a} and ${b} and ${c} is ${totalProduct}.`;
   return [totalSum, totalProduct, messageSum, messageMulti];
@@ -82,10 +82,10 @@ let testArray = [2, 3, 4]; //eslint-disable-line
 
 function sumArray(sumArr) { //eslint-disable-line
   let firstSum = sum(sumArr[0], sumArr[1])[0];
-  let totalSum = sum(sumArr[2], firstSum)[0]
+  let totalSum = sum(sumArr[2], firstSum)[0];
   let message = `${sumArr[0]},${sumArr[1]},${sumArr[2]} was passed in as an array of numbers, and ${totalSum} is their sum.`;
-  return [totalSum, message]
-  }
+  return [totalSum, message];
+}
 // Here is the test for sumArray(); uncomment it to run it
 
 testSumArray(testArray);
@@ -104,11 +104,14 @@ Test this function by hand in the console to get it working, and when you think 
 
 // Write your code here
 function multiplyArray(multArr) { //eslint-disable-line
-
+  let firstProduct = multiply(multArr[0], multArr[1])[0];
+  let totalProduct = multiply(multArr[2], firstProduct)[0];
+  let message = `The numbers ${multArr} have a product of ${totalProduct}.`;
+  return [totalProduct, message];
 }
 
 // Here is the test for multiplyArray(); uncomment it to run it
-// testMultiplyArray(testArray);
+testMultiplyArray(testArray);
 
 // Once you get the test passing, do an a-c-p cycle and synchronize the code between GitHub and your laptop. 
 
