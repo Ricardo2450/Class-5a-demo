@@ -30,5 +30,12 @@ Make sure your *main* branch is up to date with your most recent code.
 - In the submission area, paste a link to your GitHub repo for this project.
 - Add a comment to this Canvas submission with answers to the following questions.
   - How did this go, overall?
+  * Really bad. It was difficult to understand what it was I was trying to do. I feel like we didn't go over this enough for me to understand and go off on my own to do it. Justin did do his best to explain it and it kinda clicked but not as much as I would have liked.
   - What observations or questions do you have about what you've learned so far?
+  * I want to know how functions and broken down more. Question 3 and 4 I was totally lost on how to do it.
   - How long did it take you to complete this assignment? And, before you started, how long did you think it would take you to complete this assignment?
+  * It took me like three and half hours. That was only because I had a lot of help with my partners and TA Justin.
+
+  ### Partners
+  * Aubrey
+  * Angelos
